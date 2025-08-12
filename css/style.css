@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(/img/dc_vs_marvel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#iniciar {
+  background-color: rgb(11, 57, 220);
+  border-radius: 16px;
+  margin-top: 150px;
+  width: 200px;
+  padding: 8px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+#iniciar:hover {
+  background-color: white;
+  color: rgb(11, 57, 220);
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.817);
+  width: 60%;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 32px;
+}
+
+#card1 {
+  display: none;
+}
+#card2 {
+  display: none;
+}
+#card3 {
+  display: none;
+}
+#card4 {
+  display: none;
+}
+#card5 {
+  display: none;
+}
+#card6 {
+  display: none;
+}
+#card7 {
+  display: none;
+}
+#card8 {
+  display: none;
+}
+#card9 {
+  display: none;
+}
+
+#pergunta {
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+
+#op1,
+#op2 {
+  border-radius: 16px;
+  padding: 8px;
+  margin-bottom: 16px;
+  color: black;
+  background-color: beige;
+  font-size: 32px;
+}
+
+#op1:hover,
+#op2:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
