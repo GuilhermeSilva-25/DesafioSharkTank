@@ -51,9 +51,7 @@ function proximoCard() {
 }
 
 function resultado() {
-  if (marvel > dc) {
-    window.location.href = "pagina_marvel.html";
-  } else if (dc > marvel) {
-    window.location.href = "pagina_dc.html";
-  }
+
+    window.location.href = "resultado.html";
+ 
 }
