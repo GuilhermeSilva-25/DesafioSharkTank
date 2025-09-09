@@ -30,6 +30,8 @@ Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web II
 * Daniel Felipe Ferreira
 * Gabriel de Moura
 * Guilherme dos Santos Silva
+* Johnny da Silva Franco de Lima
+* Vitor de Almeida Bernardo
 
 ---
 
