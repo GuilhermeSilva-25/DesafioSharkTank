@@ -1,10 +1,10 @@
-# Desafio Shark Tank
+# Desafio Shark Tank - Versão 2
 
 ## Projeto: Quiz Marvel vs. DC
 
 Este projeto foi desenvolvido como parte de um desafio "Shark Tank" de desenvolvimento web, onde o objetivo era criar e "vender" uma solução em apenas duas horas. Nossa equipe criou um site com um quiz divertido para diagnosticar se o usuário tem mais afinidade com o universo da Marvel ou da DC.
 
-O quiz, composto por nove perguntas, analisa as respostas do usuário e o redireciona para uma página final que exibe o logo da equipe (Marvel ou DC) com a qual ele mais se identifica.
+O quiz, composto por nove perguntas, analisa as respostas do usuário e o redireciona para uma página com uma roleta que gira e só depois mostra o universo com o qual ele mais se identifica.
 
 ![Inserir imagem do projeto aqui](img/projeto.png)
 

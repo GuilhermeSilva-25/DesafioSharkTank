@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #222;
+  background-image: url("../img/dc_vs_marvel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  transition: background 0.5s ease;
+}
+
+body.dc-bg {
+  background: linear-gradient(135deg, #001f3f, #0074d9); 
+}
+
+body.marvel-bg {
+  background: linear-gradient(135deg, #7d0000, #ff0000); 
+}
+
+body.empate-bg {
+  background: linear-gradient(135deg, #3b3b3b, #000);
+}
+
+.roleta {
+  background-color: white;
+  width: 350px;
+  border-radius: 24px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: relative;
+}
+
+.roleta-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fechar {
+  background: red;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.roleta-display {
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 8px;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.roleta-display img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+}
+
+.roleta-botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.luz {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgb(255, 0, 0);
+  animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
